@@ -1,0 +1,83 @@
+html body {
+    font-family: monospace;
+    color: white;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h1 {
+    line-height: 0.5;
+}
+
+a {
+    color: white;
+}
+
+.prettyButtons {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-color: rgb(67, 5, 124);
+
+    min-width: 20%;
+    max-width: 15%;
+
+    border-radius: 10px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: left;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.smallButtons {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: medium;
+
+    background-color: rgb(67, 5, 124);
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    height: 100%;
+}
+  
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+}
+
+
+p2 {
+    font-size:large;
+    color: white;
+}
+
+canvas {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+ }
